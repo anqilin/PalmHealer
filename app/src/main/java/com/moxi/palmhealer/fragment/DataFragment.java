@@ -37,6 +37,7 @@ public class DataFragment extends BaseFragment {
     public static BluetoothDevice device;
 
     public static String deviceName_EN;
+
     public static String mDeviceAddress;
     public static BluetoothLeService mBluetoothLeService;
     public static boolean mConnected = false;
