@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_top_bar"></include>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="140px"
+        android:background="@mipmap/background2" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="#990080ff"
+            android:gravity="center"
+            android:text="是否连接此设备"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/mydevice_sure_connn"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="400px"
+            android:background="@mipmap/device_conn_button_pressed"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="是" />
+        <TextView
+            android:id="@+id/mydevice_not_connn"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="200px"
+            android:background="@drawable/device_add_btn"
+            android:gravity="center"
+            android:textColor="#0072e3"
+            android:text="否" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moxi.palmhealer">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/health_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.moxi.palmhealer.activity.SplashActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:screenOrientation="portrait" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.moxi.palmhealer.activity.TestActivity"></activity>
+        <activity
+            android:name="com.moxi.palmhealer.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.moxi.palmhealer.activity.ControlActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.moxi.palmhealer.activity.HealthActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name="com.moxi.palmhealer.service.BluetoothLeService" />
+
+        <!-- <receiver android:name=".fragment.DataFragment$MyBroadcastReceiver"> -->
+        <!-- &lt;!&ndash; intent过滤器,指定可以匹配哪些intent, 一般需要定义action 可以是自定义的也可是系统的 &ndash;&gt; -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.example.bluetooth.le.ACTION_GATT_CONNECTED" /> -->
+        <!-- <action android:name="com.example.bluetooth.le.ACTION_GATT_DISCONNECTED" /> -->
+        <!-- <action android:name="com.example.bluetooth.le.ACTION_GATT_SERVICES_DISCOVERED" /> -->
+        <!-- <action android:name="com.example.bluetooth.le.ACTION_DATA_AVAILABLE" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+        <meta-data
+            android:name="design_width"
+            android:value="1080" />
+        <meta-data
+            android:name="design_height"
+            android:value="1920" />
+
+        <activity
+            android:name="com.moxi.palmhealer.activity.RemoteActivity"
+            android:label="@string/title_activity_remote"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

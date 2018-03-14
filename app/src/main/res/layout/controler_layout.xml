@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1160px"
+        android:background="#F4F4F4">
+
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="540px"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/controler_add_button_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="195px"
+                android:layout_marginTop="172px"
+                android:background="@mipmap/controler_add" />
+            <!--<ImageView-->
+            <!--android:layout_marginTop="285px"-->
+            <!--android:layout_marginLeft="212px"-->
+            <!--android:background="@mipmap/controler_bar_bg"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+            <!--<ImageView-->
+            <!--android:id="@+id/controler_bar_forhead"-->
+            <!--android:layout_marginTop="285px"-->
+            <!--android:layout_marginLeft="212px"-->
+            <!--android:background="@mipmap/controler_bar_forhead"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="570px"
+                android:layout_marginLeft="195px"
+                android:layout_marginTop="270px">
+
+                <com.moxi.palmhealer.widget.VerticalSeekBar
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/controler_bar_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:max="100"
+                    android:maxWidth="30dip"
+                    android:minWidth="30dip"
+                    android:progress="2"
+                    android:progressDrawable="@drawable/progressbar_horizontal_1"
+                    android:splitTrack="false"
+                    android:thumb="@mipmap/controler_bar_ball" />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <TextView
+                android:id="@+id/time_float_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="296px"
+                android:layout_marginTop="680px"
+                android:background="@mipmap/controler_left_time"
+                android:gravity="center_horizontal"
+                android:paddingTop="20px"
+                android:text="0min" />
+
+            <ImageView
+                android:id="@+id/controler_decrease_button_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="195px"
+                android:layout_marginTop="860px"
+                android:background="@mipmap/controler_decrease" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160px"
+                android:layout_marginTop="1000px"
+                android:text="时  间"
+                android:textSize="20sp" />
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#868C98" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="540px"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/controler_add_button_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="195px"
+                android:layout_marginTop="172px"
+                android:background="@mipmap/controler_add" />
+
+            <!--<ImageView-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginTop="285px"-->
+            <!--android:layout_marginRight="212px"-->
+            <!--android:background="@mipmap/controler_bar_bg"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+            <!--<ImageView-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginTop="285px"-->
+            <!--android:layout_marginRight="212px"-->
+            <!--android:background="@mipmap/controler_bar_forhead"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+            <!--<ImageView-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginTop="285px"-->
+            <!--android:layout_marginRight="196px"-->
+            <!--android:background="@mipmap/controler_bar_ball"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+            <TextView
+                android:id="@+id/temp_float_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="296px"
+                android:layout_marginTop="680px"
+                android:background="@mipmap/controler_right_temp"
+                android:gravity="center_horizontal"
+                android:paddingTop="20px"
+                android:text="100℃" />
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_height="570px"
+                android:layout_marginRight="195px"
+                android:layout_marginTop="270px">
+
+                <com.moxi.palmhealer.widget.VerticalSeekBar
+                    android:id="@+id/controler_bar_temp"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:max="100"
+                    android:maxWidth="30dip"
+                    android:minWidth="30dip"
+                    android:progress="2"
+                    android:progressDrawable="@drawable/progressbar_horizontal_1"
+                    android:splitTrack="false"
+                    android:thumb="@mipmap/controler_bar_ball" />
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/controler_decrease_button_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="195px"
+                android:layout_marginTop="860px"
+                android:background="@mipmap/controler_decrease" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="160px"
+                android:layout_marginTop="1000px"
+                android:text="温  度"
+                android:textSize="20sp" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_centerInParent="true"
+        android:background="#D1D1D1"></View>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="205px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="110px"
+            android:text="开关"
+            android:textSize="20sp" />
+
+        <com.moxi.palmhealer.widget.EasySwitchButton
+            android:id="@+id/button_power"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="110px"
+            app:isOpened="false"
+            app:switch_off="@mipmap/button_switch_off"
+            app:switch_on="@mipmap/button_switch_on" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_centerInParent="true"
+        android:background="#D1D1D1"></View>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="205px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="110px"
+            android:text="紅光"
+            android:textSize="20sp" />
+
+        <com.moxi.palmhealer.widget.EasySwitchButton
+            android:id="@+id/button_hongguang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="110px"
+            app:isOpened="false"
+            app:switch_off="@mipmap/button_switch_off"
+            app:switch_on="@mipmap/button_switch_on" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_centerInParent="true"
+        android:background="#D1D1D1"></View>
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<points>
+    <point name="足三里">
+        <point_pic>sanzuli_pic</point_pic>
+        <location>位置 :位于小腿前外侧，当外膝眼下3寸，距胫骨前缘一横指(中指)。</location>
+        <features>失眠、支气管炎、风湿病、胃病、三高、阳痿、遗精、肝炎 胆囊炎、胆结石、肾结石、心绞痛、糖尿病、高血压、增进 食欲，帮助消化、促进胃肠蠕动、改善便秘、抗衰老。
+        </features>
+    </point>
+
+    <point name="关元穴">
+        <point_pic>yuanguanxue_pic</point_pic>
+        <location>位置 :位于肚脐下方3寸处（四指横放即为3寸）。</location>
+        <features>肢冷畏寒、肾虚、结肠炎、便秘、失眠、虚胖、遗尿、尿 频腹痛、遗精阳痿、早泄，月经不调、经闭、痛经、不孕， 中风、气虚体弱。</features>
+    </point>
+
+    <point name="神阙穴">
+        <point_pic>shenquexue_pic</point_pic>
+        <location>位置：神阙穴即肚脐，又名脐中，是人体任脉上的要穴。 它位于命门穴平行对应的肚脐中。</location>
+        <features>感冒、咳嗽、哮喘、中风、胃痛、腹痛、腰痛、牙痛、痛 经阳痿、颈椎坐骨神经痛、湿疹、痤疮，健脾强肾、回阳 救逆、和胃理肠、行气利水散结通滞、活血调经、小儿营 养不良。
+        </features>
+    </point>
+
+    <point name="大椎穴">
+        <point_pic>dazhuixue_pic</point_pic>
+        <location>位置 :位于人体的颈部下端，第七颈椎棘突下凹陷处。</location>
+        <features>感冒、气管炎、肺炎等呼吸道疾病，改善背痛、头痛、中 暑、肩周炎、颈椎病、落枕症状，预防风寒感冒。
+        </features>
+    </point>
+
+    <point name="涌泉穴">
+        <point_pic>yongquanxue_pic</point_pic>
+        <location>涌泉穴位于足前部凹陷处第2、3趾趾缝纹头端与足 跟连线的前三分之一处，当你用力弯曲脚趾时，足底前部 出现的凹陷处就是涌泉穴。</location>
+        <features>失眠、头痛、休克、昏厥、中暑、偏瘫、耳鸣、高血压、 糖尿病、更年期症状、咽喉痛、便秘、头痛、肾炎、阳萎 遗精、缓解各类妇科病和生殖类病症。
+        </features>
+    </point>
+
+    <point name="膻中穴">
+        <point_pic>tanzhongxue_pic</point_pic>
+        <location>位置：位于人体的胸部前正中线上，量肉头连线的中点处取穴时，患者可采用正坐或仰卧的姿势。</location>
+        <features>膻中穴主治胸部疼痛、腹部疼痛、心悸、呼吸困难、咳嗽 过胖、过瘦、呃逆、乳腺炎、缺乳症、咳喘病、支气管炎 胸闷、胸痛、心慌、气短、心烦等。</features>
+    </point>
+
+    <point name="三阴交">
+        <point_pic>sanyinjiao_pic</point_pic>
+        <location>位置：位于足太阴脾经穴位，位于小腿三阴交内侧，踝关 节上三寸。对于妇科疾病有很好的疗效，是针灸治疗妇科 疾病的常用穴位。</location>
+        <features>月经不调、痛经、白带异常、不孕、闭经，缓解腹胀、消 化不良食欲不振、腹泻、失眠、神经衰弱、更年期综合症、 袪湿、降血脂。
+        </features>
+    </point>
+
+    <point name="太溪穴">
+        <point_pic>taixixue_pic</point_pic>
+        <location>位置：在足内侧，内踝后方，当内踝尖与跟腱之间的凹陷处</location>
+        <features>头痛目眩、咽喉肿痛、牙痛、耳聋、耳鸣、咳嗽、气喘、胸 痛咳血、消渴、月经不调、失眠、健忘、遗精、阳痿、小便 频繁、腰脊痛、下肢厥冷、内踝肿痛。</features>
+    </point>
+
+    <point name="命门穴">
+        <point_pic>mingmenxue_pic</point_pic>
+        <location>位置：命门穴位于腰部，当后正中线上，第二腰椎棘突下 凹陷中。（即：第二腰椎与第三腰椎棘突之间）。取穴时 采用俯卧的姿势，指压时，有强烈的压痛感。
+        </location>
+        <features>遗尿、尿频、泄泻、遗精、白浊、阳痿、早泄、赤白带下 习惯性流产、头晕耳鸣、癫痫、惊恐、手足逆冷。
+        </features>
+    </point>
+
+    <point name="中脘穴">
+        <point_pic>zhongwanxue_pic</point_pic>
+        <location>位置：位于上腹部，前正中线上，胸骨下端和肚脐连接线 中点（当脐中上4寸）</location>
+        <features>哮喘、头痛、失眠、慢性肝炎、慢性胃炎、胃痛、腹胀、 腹泻、腹痛、呕吐、便秘、食欲不振、目眩耳鸣、青春 痘、精力不济、神经衰弱等。</features>
+    </point>
+
+    <point name="委中穴">
+        <point_pic>weizhongxue_pic</point_pic>
+        <location>位置：取该穴道时候患者应采用俯卧的取穴姿势，委中穴 位于腘横纹中点，股二头肌腱与半腱肌腱中间，即膝盖里 侧中央。</location>
+        <features>坐骨神经痛、小腿疲劳、腹部疼痛、颈部酸痛、腰部疼痛 或疲劳、臀部疼痛、膝盖疼痛。</features>
+    </point>
+
+    <point name="血海穴">
+        <point_pic>xuehaixue_pic</point_pic>
+        <location>位置：取该穴道时候患者应采用俯卧的取穴姿势，委中穴 位于腘横纹中点，股二头肌腱与半腱肌腱中间，即膝盖里 侧中央。</location>
+        <features>月经不调、经闭、痛经、腹胀、功能性子宫出血，睾丸 炎，荨麻疹、湿疹、皮肤瘙痒、神经性皮炎、贫血，下 肢内侧及膝关节痛。</features>
+    </point>
+
+    <point name="阴陵泉">
+        <point_pic>yinlingquan_pic</point_pic>
+        <location>位置：取穴的时候，做好用仰卧或正坐的姿势，胫骨内侧 髁后下方凹陷处就是阴陵泉穴位的位置。</location>
+        <features>腹痛、膝盖及腰腿疼痛，晕眩、腹胀、泄泻、水肿、食欲 不振。</features>
+    </point>
+
+</points>

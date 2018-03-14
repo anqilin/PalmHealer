@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/mMainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mRadioGroup"></FrameLayout>
+
+    <!-- 底下的四个tab -->
+
+    <RadioGroup
+        android:id="@+id/mRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:layout_alignParentBottom="true"
+        android:background="#F4F5F7"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/firstpage"
+            style="@style/main_tab_item"
+            android:checked="true"
+            android:drawableTop="@drawable/main_tab_firstpage_bg"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/shop"
+            style="@style/main_tab_item"
+            android:drawableTop="@drawable/main_tab_shop_bg"
+            android:text="商城" />
+
+
+        <RadioButton
+            android:id="@+id/consult"
+            style="@style/main_tab_item"
+            android:drawableTop="@drawable/main_tab_consult_bg"
+            android:text="咨询" />
+
+        <RadioButton
+            android:id="@+id/mysetting"
+            style="@style/main_tab_item"
+            android:drawableTop="@drawable/main_tab_my_bg"
+            android:text="我" />
+    </RadioGroup>
+
+</com.zhy.autolayout.AutoRelativeLayout>

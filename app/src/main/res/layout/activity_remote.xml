@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_remote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="275px">
+
+            <ImageView
+                android:id="@+id/controler_add_imv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="85px"
+                android:background="@mipmap/controler_edit_add" />
+
+            <ImageView
+                android:id="@+id/control_delete_imv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="85px"
+                android:background="@mipmap/controler_edit_delete" />
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_centerInParent="true"
+            android:background="#D1D1D1"></View>
+
+
+        <ListView
+            android:id="@+id/controler_mydevicelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:fadingEdge="none"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="never" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

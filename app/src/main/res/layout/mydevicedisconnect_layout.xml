@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/common_top_bar"></include>
+
+
+    <ImageView
+        android:id="@+id/connect_device_loading"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="354px"
+        android:background="@mipmap/device_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/connect_device_tx"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="754px"
+        android:gravity="center"
+        android:text="连接失败"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/disconnect_reconnect_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="303px"
+        android:gravity="center"
+        android:text="重新配对"
+        android:background="@drawable/button_device_conn"
+        android:textColor="@color/white" />
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="220px"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/controler_listitem_pic"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="20px"
+        android:paddingTop="20px"
+        android:src="@mipmap/portable_moxibustion" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="330px"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/controler_item_devicename_CN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="便携式艾灸仪" />
+
+        <TextView
+            android:id="@+id/controler_item_devicename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="房间504" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/controler_deviceitem_offline"
+        android:text="未连接"
+        android:paddingRight="12px"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@mipmap/deviceadd_offline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="50px"
+        android:layout_height="match_parent"></com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/controler_edit_delete_bg"
+        android:background="#DBDBDD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/controler_edit_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/controler_edit_delete" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

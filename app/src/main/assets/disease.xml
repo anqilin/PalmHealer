@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diseases>
+    <disease name="发烧">
+        <point>大椎|肾俞|命门|神阙</point>
+        <care>风寒发烧这4个退烧穴在身体上从上到下，从后到前灸一 遍即可，每穴20分钟。风热引起的不灸。</care>
+        <pics num="2">
+            <pic picName="fashao_pic1" rele="大椎|肾俞|命门"></pic>
+            <pic picName="fashao_pic2" rele="神阙"></pic>
+        </pics>
+    </disease>
+
+    <disease name="失眠">
+        <point>足三里|三阴交|太溪|脾俞|心俞</point>
+        <care>每穴40分钟，1天1次，一次2个穴，10天1个疗程。</care>
+        <pics num="2">
+            <pic picName="shimian_pic1" rele="足三里|三阴交|太溪"></pic>
+            <pic picName="shimian_pic2" rele="脾俞|心俞"></pic>
+        </pics>
+    </disease>
+
+    <disease name="高血压">
+        <point>足三里|太溪|涌泉</point>
+        <care>每穴40分钟，1天1次，一次2个穴，10天1个疗程。</care>
+        <pics num="1">
+            <pic picName="gaoxueya_pic1" rele="足三里|太溪|涌泉"></pic>
+        </pics>
+    </disease>
+
+    <disease name="颈椎病">
+        <point>腰阳关|大椎|身柱</point>
+        <care>每穴40分钟，1天1次，一次2个穴，10天1个疗程。</care>
+        <pics num="1">
+            <pic picName="jingzhuibing_pic1" rele="腰阳关|大椎|身柱"></pic>
+        </pics>
+    </disease>
+
+    <disease name="关节炎">
+        <point>足三里|大椎|阴陵泉</point>
+        <care>每穴40分钟，1天1次，一次2个穴，10天1个疗程。</care>
+        <pics num="1">
+            <pic picName="guanjieyan_pic1" rele="足三里|大椎|阴陵泉"></pic>
+        </pics>
+    </disease>
+
+    <disease name="糖尿病">
+        <point>涌泉|足三里|关元|神阙</point>
+        <care>每日一到两次，每次20-40分钟。每10天为一个疗程，疗程间休息3-5天后继续第二轮疗程，三个疗程统计疗效。</care>
+        <pics num="2">
+            <pic picName="tangnioabing_pic1" rele="涌泉|足三里"></pic>
+            <pic picName="tangniaobing_pic2" rele="关元|神阙"></pic>
+        </pics>
+    </disease>
+
+    <disease name="女性病">
+        <point>关元|八髎|三阴交</point>
+        <care>主治痛经，月经不调，每穴40分钟，1天1次，一次2个穴，10天1个疗程。</care>
+        <pics num="1">
+            <pic picName="nvxingbing_pic1" rele="关元|八髎|三阴交"></pic>
+        </pics>
+    </disease>
+
+    <disease name="男性病">
+        <point>关元|三阴交|肾俞|中极</point>
+        <care>主治遗精，遗精乃精关不固所致，主要责之肾，与心脾也有关。每穴40分钟，1天1次，1次2穴，10天1个疗程。</care>
+        <pics num="1">
+            <pic picName="nanxingbing_pic1" rele="关元|三阴交|肾俞|中极"></pic>
+        </pics>
+    </disease>
+
+    <disease name="肠胃炎">
+        <point>中脘|足三里|神阙|天枢|大肠俞</point>
+        <care>患者应多吃新鲜蔬菜水果，特别是香蕉，红薯，可经常引用蜂蜜等。</care>
+        <pics num="1">
+            <pic picName="changweibing_pic1" rele="中脘|足三里|神阙|天枢|大肠俞"></pic>
+        </pics>
+    </disease>
+
+    <disease name="手脚冷">
+        <point>涌泉穴|足三里|命门|大椎|神阙</point>
+        <care>每日可灸1-2个穴位，每个穴位灸20-30分钟之间 隔天再施灸余下的穴位。灸涌泉穴前可先用热水泡 脚20-30分钟。</care>
+        <pics num="3">
+            <pic picName="shoujiangleng_pic1" rele="涌泉穴|足三里"></pic>
+            <pic picName="shoujiangleng_pic2" rele="命门|大椎"></pic>
+            <pic picName="shoujiangleng_pic3" rele="神阙"></pic>
+        </pics>
+    </disease>
+
+
+</diseases>
+

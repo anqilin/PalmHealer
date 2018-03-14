@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/common_top_bar"></include>
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/connect_cicle"
+        android:layout_marginTop="483px"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/connect_device_iv"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/connect_device_icon" />
+
+        <ImageView
+            android:id="@+id/connect_cicle_iv"
+            android:background="@mipmap/connect_device_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </com.zhy.autolayout.AutoFrameLayout>
+
+
+    <TextView
+        android:id="@+id/connect_device_tx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="400px"
+        android:gravity="center_horizontal"
+        android:text="正在进行蓝牙配对..."
+        android:textColor="#2BA9FE" />
+
+
+</com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+
+

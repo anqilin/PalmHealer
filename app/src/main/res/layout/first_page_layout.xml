@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:id="@+id/banner_main_accordion"
+        style="@style/BannerDefaultStyle"
+        app:banner_transitionEffect="accordion" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#D1D1D1"></View>
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="398px"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/yangshengsuo"-->
+    <!--android:layout_width="360px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@mipmap/yangshengsuo" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/chanpinsm"-->
+    <!--android:layout_width="360px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@mipmap/chanpinsm" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/yaokongqi"-->
+    <!--android:layout_width="360px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@mipmap/yaokongqi" />-->
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30px"></LinearLayout>-->
+
+    <!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100px"-->
+    <!--android:gravity="center">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="360px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="养生所" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="360px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="产品说明" />d-->
+
+    <!--<TextView-->
+    <!--android:layout_width="360px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="遥控器" />-->
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="398px"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/yangshengsuo"
+            android:background="@drawable/firstpage_btn_bg"
+            android:clickable="true"
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/yangshengsuo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30px"></LinearLayout>
+
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="养生所" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D1D1" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:background="@drawable/firstpage_btn_bg"
+            android:clickable="true"
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/chanpinsm"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chanpinsm" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30px"></LinearLayout>
+
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="产品说明" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D1D1" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/yaokongqi"
+            android:background="@drawable/firstpage_btn_bg"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/yaokongqi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30px"></LinearLayout>
+
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="遥控器" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#D1D1D1"></View>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="398px"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:background="@drawable/firstpage_btn_bg"
+            android:clickable="true"
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aijiuchanpin"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/aijiuchanpin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30px"></LinearLayout>
+
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="艾灸产品" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D1D1" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:background="@drawable/firstpage_btn_bg"
+            android:clickable="true"
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/xuanchuanpian"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/xuanchuanpian" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30px"></LinearLayout>
+
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="宣传片" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D1D1" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:background="@drawable/firstpage_btn_bg"
+            android:clickable="true"
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/qita"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/qita" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30px"></LinearLayout>
+
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="其他" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#D1D1D1"></View>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

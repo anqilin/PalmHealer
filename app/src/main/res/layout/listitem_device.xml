@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/firstpage_btn_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/portable_moxibustion"
+        android:layout_width="250px"
+        android:layout_height="150px"
+        android:id="@+id/listitem_pic" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#868C98"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:paddingLeft="40px"
+        android:gravity="center_vertical"
+        android:layout_width="500px"
+        android:layout_height="match_parent"
+        android:text="立式艾灸仪"
+        android:textColor="#43637A"
+        android:textSize="18sp"
+        android:id="@+id/listitem_name" />
+
+    <ImageView
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="20px"
+        android:layout_gravity="center_vertical"
+        android:background="@mipmap/listitem_blueicon"
+        android:layout_width="30px"
+        android:layout_height="60px" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginRight="20px"
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:text="蓝牙连接"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:background="@mipmap/listitem_next"
+        android:layout_width="30px"
+        android:layout_height="60px"
+        android:id="@+id/listitem_next" />
+</com.zhy.autolayout.AutoLinearLayout>

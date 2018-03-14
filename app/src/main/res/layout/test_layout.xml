@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/common_top_bar"></include>
+
+
+    <RelativeLayout
+        android:layout_width="540px"
+        android:layout_height="wrap_content">
+
+
+        <!--<com.sparkpad.palmhealer.widget.VerticalSeekBar-->
+        <!--android:id="@+id/controler_bar_forhead"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:max="1000"-->
+        <!--android:maxWidth="30dip"-->
+        <!--android:minWidth="30dip"-->
+        <!--android:progress="2"-->
+        <!--android:splitTrack="false"-->
+        <!--android:progressDrawable="@drawable/progressbar_horizontal_1"-->
+        <!--android:thumb="@mipmap/controler_bar_ball" />-->
+
+        <TextView
+            android:id="@+id/controler_bar_forhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/controler_bar_bg" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/disease_detail_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_top_bar"></include>
+
+    <TextView
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="50px"
+        android:text="注意事项 :"
+        android:layout_width="match_parent"
+        android:layout_height="120px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#868C98"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/disease_care_tx"
+        android:paddingTop="40px"
+        android:layout_marginLeft="50px"
+        android:text="风寒发烧这4个退烧穴在身体上从上到下，从后到前灸一 遍即可，每穴20分钟。风热引起的不灸。"
+        android:layout_width="match_parent"
+        android:layout_height="220px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#868C98"
+        android:layout_gravity="center_horizontal" />
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:layout_marginTop="2dp"
+            android:id="@+id/view_pager_pic"
+            android:layout_width="match_parent"
+            android:layout_height="1050px"></android.support.v4.view.ViewPager>
+
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_marginTop="450px"
+            android:layout_marginLeft="71px"
+            android:background="@mipmap/disease_detail_left"
+            android:id="@+id/disease_detail_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_marginTop="450px"
+            android:layout_marginRight="71px"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/disease_detail_right"
+            android:id="@+id/disease_detail_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:text="启    动"
+            android:textSize="20sp"
+            android:background="@drawable/point_button_select"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="220px"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/disease_control_start" />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>
